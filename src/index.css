@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- ant design button, start ---------- */
+.ant-btn.ant-btn-primary {
+  background-color: #1677ff;
+  color: #ffffff;
+}
+/* ---------- ant design button, end ---------- */
+
+#root {
+  height: 100%;
+}
