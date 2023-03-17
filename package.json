@@ -1,13 +1,16 @@
 {
-  "name": "marketplace-cns",
+  "name": "cns-marketplace-interface",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "keywords": [],
+  "author": "0x74616e67 <0x74616e67@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

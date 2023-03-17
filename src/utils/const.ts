@@ -10,10 +10,10 @@ export const CONFIG = {
     networkId: 1,
     rpc: "https://test.confluxrpc.com",
     contracts: {
-      store: "cfxtest:achcazfj1k4xbyt6psg24fxd57nzar0tv2f4k81y2r",
-      marketplace: "cfxtest:acdz9urb2f2j12ec6k2v1ub3teyz0y4jwjajh9bdte",
+      store: "cfxtest:acgm0mug062vbgnvx5kpcm1cey4k2wfvb6s7ewzfth",
+      marketplace: "cfxtest:aca7e820j4eypvdbm2069e2cthsu05fzf2z0z32ky3",
       CNS: "cfxtest:acapc3y2j7atme3bawvaex18hs36tn40uu5h6j3mtu",
-      CNSUtils: "cfxtest:achmezcg08v6t9p1nr887182epmtdfn66j9jh9xgn7",
+      CNSUtils: "cfxtest:acfukm0f4whwmtf2y8ehxx44ydptywveay9dsy99aw",
     },
   },
 }[NETWORK];

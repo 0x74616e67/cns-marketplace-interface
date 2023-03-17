@@ -120,3 +120,21 @@ export async function buyItem({
     })
     .executed();
 }
+
+// TODO
+// export async function transfer({
+//   account,
+//   owner,
+//   tokenId,
+// }: {
+//   account: string;
+//   owner: string;
+//   tokenId: string;
+// }): Promise<undefined> {
+//   return await cNamewrapper
+//     .safeTransferFrom()
+//     .sendTransaction({
+//       from: account,
+//     })
+//     .executed();
+// }

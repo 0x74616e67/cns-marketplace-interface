@@ -7,6 +7,7 @@ import {
   getOwnedNFTs,
   cancelListing,
   updateListing,
+  // transfer,
 } from "../../utils/calls";
 import { wallet } from "../../utils";
 import { ApprovedWrapper } from "../../components/ButtonWrapper";

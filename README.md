@@ -1,1 +1,1 @@
-# marketplace-cns
+# cns marketplace interface

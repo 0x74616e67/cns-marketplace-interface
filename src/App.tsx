@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from "react";
-import { Layout, Menu, theme } from "antd";
+import { Layout, Menu } from "antd";
 import ConnectWalletButton from "./components/ConnectWalletButton";
 import Warning from "./components/Warning";
 import MyCNS from "./pages/MyCNS";
@@ -10,15 +10,11 @@ const { Header } = Layout;
 export default function App() {
   const [menuKey, setMenuKey] = useState("market-place");
 
-  const {
-    token: { colorBgContainer },
-  } = theme.useToken();
-
   const MENU_ITEMS = useMemo(
     () => [
       {
         key: "market-place",
-        text: "Market Place",
+        text: "Marketplace",
       },
       {
         key: "my-cns",
